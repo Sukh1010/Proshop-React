@@ -80,7 +80,7 @@ const RegisterScreen = () => {
         <Paper
           elevation={4}
           sx={{
-            width: { xs: "80vw", md: "60vw", lg: "80vw", xl: "70vw" },
+            width: { xs: "87vw", md: "60vw", lg: "80vw", xl: "70vw" },
             height: { xs: "115vh", md: "70vh", xl: "70vh", lg: "90vh" },
             margin: { xs: 1, md: 5 },
             padding: { xs: 2, md: 4, lg: 8 },
@@ -95,7 +95,7 @@ const RegisterScreen = () => {
               width: { xs: "100%", md: "50%" },
             }}
           >
-            <img src={signup} style={{ height: "95%" }} alt="" />
+            <img src={signup} style={{ height: "86%" }} alt="" />
           </Box>
           <Box
             sx={{

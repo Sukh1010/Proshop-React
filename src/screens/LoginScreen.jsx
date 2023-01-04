@@ -43,10 +43,16 @@ const LoginScreen = () => {
         <Paper
           elevation={4}
           sx={{
-            width: { xs: "70vw", md: "60vw", lg: "70vw", xl: "60vw" },
-            height: { xs: "90vh", md: "70vh", xl: "70vh", lg: "90vh" },
-            margin: { xs: 2, md: 5 },
-            padding: { xs: 2, md: 4, lg: 8 },
+            width: { xs: "85vw", md: "60vw", lg: "75vw", xl: "60vw" },
+            height: {
+              xs: "90vh",
+              md: "70vh",
+              sm: "100vh",
+              xl: "70vh",
+              lg: "90vh",
+            },
+            margin: { xs: 1, md: 2, sm: 1, lg: 1 },
+            padding: { xs: 3, md: 3, sm: 1, lg: 5 },
             display: "flex",
             justifyContent: "space-between",
             flexWrap: "wrap",
@@ -58,7 +64,7 @@ const LoginScreen = () => {
               width: { xs: "100%", md: "50%" },
             }}
           >
-            <img src={login} style={{ height: "90%" }} alt="" />
+            <img src={login} style={{ height: "86%" }} alt="" />
           </Box>
           <Box
             sx={{
